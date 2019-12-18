@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_wireframe_bg"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/viewcontroller_search_cl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/viewcontroller_search_cl_btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp32"
+            android:layout_marginEnd="@dimen/dp10"
+            android:background="@drawable/blue_btn_bg"
+            android:text="@string/Search"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp18"
+            app:layout_constraintBottom_toBottomOf="@id/viewcontroller_search_cl_et_search"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/viewcontroller_search_cl_et_search" />
+
+        <EditText
+            android:id="@+id/viewcontroller_search_cl_et_search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp44"
+            android:layout_marginEnd="@dimen/dp30"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/SearchviewHint"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColor="@color/Text_Color"
+            android:textSize="@dimen/sp20"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

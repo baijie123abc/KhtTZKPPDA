@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#989898</color>
+    <color name="Theme_Color">#2454A0</color>
+    <color name="Toast_Color">#2454A0</color>
+    <color name="Blue_Default">#2454A0</color>
+    <color name="Blue_Press">#1e90ff</color>
+    <color name="Title_Color">#333333</color>
+    <color name="Text_Color">#696969</color>
+    <color name="Et_Box_Color">#C6C6C6</color>
+    <color name="Item_Bg_Color">#f8f8ff</color>
+    <color name="White">#ffffff</color>
+    <color name="black">#E6000000</color>
+    <color name="login_btn_press">#2454A0</color>
+    <color name="login_btn_default">#989898</color>
+    <color name="line_color">#989898</color>
+</resources>

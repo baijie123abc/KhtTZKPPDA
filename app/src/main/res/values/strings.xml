@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">土方系统</string>
+    <string name="back">返回</string>
+    <string name="sign_in">登 录</string>
+    <string name="welcome">欢迎使用</string>
+    <string name="inputpassword">请输入密码</string>
+    <string name="inputaccount">请输入账号</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="uhf">1.请确认设置->用户自定义->EMSH设置->开启EMSH服务已勾选\n\n2.请确认PDA右上角有两个电池图标，且都显示有电：
+                         如果只有一个电池图标，请确认把枪和PDA连接是否可靠；\n如果左侧电池图标没电，请使用专用三合一座充充电\n\n&#160;3.如还有问题，请截取EMSH设置->EMSH状态的截图，发送给相关技术支持</string>
+    <string name="btnsaveuhfpower">设置扫描枪功率</string>
+    <string name="btnsaveuhfscantime">设置扫描时间</string>
+    <string name="inputuhfpower">请输入功率数值，范围5&#8211;30之间</string>
+    <string name="saveIP">保存IP地址</string>
+    <string name="IP">IP地址</string>
+    <string name="inputIP">请输入IP地址</string>
+    <string name="inputuhfscantime">请输入大于0的扫描时长</string>
+    <string name="confirm">确&#160;&#160;&#160;认</string>
+    <string name="Search">搜索</string>
+    <string name="SearchviewHint">请输入车牌号搜索</string>
+    <string name="BusinessNumber">业务编号：%1$s</string>
+    <string name="GoodsName">货物名称：%1$s</string>
+    <string name="DeliveryAddress">发货地址：%1$s</string>
+    <string name="ReceivingAddress">收货地址：%1$s</string>
+    <string name="PlateNumber">车牌号：%1$s</string>
+    <string name="TodayFinishTime">今日已拉次数：%1$s</string>
+    <string name="GrossWeight">毛重：%1$s吨</string>
+    <string name="NetWeight">净重：%1$s吨</string>
+    <string name="TareWeight">皮重：%1$s吨</string>
+    <string name="WeighedNumber">过磅单号：%1$s</string>
+    <string name="Driver">司机：%1$s</string>
+    <string name="DriverTel">司机电话：%1$s</string>
+    <string name="Freight">运费：%1$s元</string>
+    <string name="WeighedTime">过磅时间：%1$s</string>
+
+</resources>

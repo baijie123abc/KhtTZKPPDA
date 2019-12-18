@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/activity_setting_cl_setnet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_marginEnd="@dimen/dp10"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp10"
+        app:layout_constraintTop_toBottomOf="@id/activity_setting_toptitle">
+
+        <Button
+            android:id="@+id/activity_setting_cl_setnet_btn_saveip"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp20"
+            android:layout_marginEnd="@dimen/dp10"
+            android:background="@drawable/blue_btn_bg"
+            android:text="@string/saveIP"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp20"
+            app:layout_constraintTop_toBottomOf="@id/activity_setting_cl_setnet_et_ip" />
+
+
+        <EditText
+            android:id="@+id/activity_setting_cl_setnet_et_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dp65"
+            android:background="@drawable/gray_et_bg"
+            android:hint="@string/inputIP"
+            android:padding="@dimen/dp10"
+            android:textColor="@color/Text_Color"
+            android:textSize="@dimen/sp20"
+            app:layout_constraintBottom_toBottomOf="@id/activity_setting_cl_setnet_tv_ip"
+            app:layout_constraintLeft_toRightOf="@id/activity_setting_cl_setnet_tv_ip"
+            app:layout_constraintTop_toTopOf="@id/activity_setting_cl_setnet_tv_ip" />
+
+
+        <TextView
+            android:id="@+id/activity_setting_cl_setnet_tv_ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/dp10"
+            android:text="@string/IP"
+            android:textColor="@color/Text_Color"
+            android:textSize="@dimen/sp20"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/activity_setting_cl_uhfpower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_marginEnd="@dimen/dp10"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp10"
+        app:layout_constraintTop_toBottomOf="@id/activity_setting_cl_setnet">
+
+        <Button
+            android:id="@+id/activity_setting_cl_uhfpower_btn_saveuhfpower"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp20"
+            android:layout_marginEnd="@dimen/dp10"
+            android:background="@drawable/blue_btn_bg"
+            android:text="@string/btnsaveuhfpower"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp20"
+            app:layout_constraintTop_toBottomOf="@id/activity_setting_cl_uhfpower_et_uhfpower" />
+
+        <EditText
+            android:id="@+id/activity_setting_cl_uhfpower_et_uhfpower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/gray_et_bg"
+            android:hint="@string/inputuhfpower"
+            android:inputType="number"
+            android:maxLength="2"
+            android:padding="@dimen/dp10"
+            android:textColor="@color/Text_Color"
+            android:textSize="@dimen/sp20" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/activity_setting_cl_uhfscantime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_marginEnd="@dimen/dp10"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp10"
+        app:layout_constraintTop_toBottomOf="@id/activity_setting_cl_uhfpower">
+
+        <Button
+            android:id="@+id/activity_setting_cl_uhfscantime_btn_saveuhfscantime"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp20"
+            android:layout_marginEnd="@dimen/dp10"
+            android:background="@drawable/blue_btn_bg"
+            android:text="@string/btnsaveuhfscantime"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp20"
+            app:layout_constraintTop_toBottomOf="@id/activity_setting_cl_uhfscantime_et_uhfscantime" />
+
+        <EditText
+            android:id="@+id/activity_setting_cl_uhfscantime_et_uhfscantime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/gray_et_bg"
+            android:hint="@string/inputuhfscantime"
+            android:inputType="number"
+            android:maxLength="2"
+            android:padding="@dimen/dp10"
+            android:textColor="@color/Text_Color"
+            android:textSize="@dimen/sp20" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include
+        android:id="@+id/activity_setting_toptitle"
+        layout="@layout/layout_common_title"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

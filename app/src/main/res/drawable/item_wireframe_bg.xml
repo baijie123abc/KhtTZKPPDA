@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--背景颜色-->
+    <corners android:radius="8dp" />
+    <!--width是边的宽度，color是边的颜色-->
+    <solid android:color="@color/Item_Bg_Color" />
+    <!--圆角大小-->
+    <stroke
+        android:width="5dp"
+        android:color="@color/Et_Box_Color"></stroke>
+</shape>

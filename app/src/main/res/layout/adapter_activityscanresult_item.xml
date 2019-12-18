@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp10"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_wireframe_bg"
+        android:padding="@dimen/dp10">
+
+        <Button
+            android:id="@+id/adapter_activityscanresult_item_btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp34"
+            android:layout_marginTop="@dimen/dp10"
+            android:background="@drawable/blue_btn_bg"
+            android:text="@string/confirm"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp18"
+            app:layout_constraintTop_toBottomOf="@id/adapter_activityscanresult_item_tv_netweight" />
+
+        <TextView
+            android:id="@+id/adapter_activityscanresult_item_tv_todayfinishtime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+            android:text="@string/TodayFinishTime"
+            android:textColor="@color/Title_Color"
+            android:textSize="@dimen/sp16"
+            app:layout_constraintTop_toBottomOf="@id/adapter_activityscanresult_item_tv_platenumber" />
+
+        <TextView
+            android:id="@+id/adapter_activityscanresult_item_tv_goodsname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+            android:text="@string/GoodsName"
+            android:textColor="@color/Title_Color"
+            android:textSize="@dimen/sp16"
+            app:layout_constraintTop_toBottomOf="@id/adapter_activityscanresult_item_tv_todayfinishtime" />
+
+        <TextView
+            android:id="@+id/adapter_activityscanresult_item_tv_deliveryaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/DeliveryAddress"
+            android:textColor="@color/Title_Color"
+            android:textSize="@dimen/sp16"
+            app:layout_constraintTop_toBottomOf="@id/adapter_activityscanresult_item_tv_goodsname" />
+
+        <TextView
+            android:id="@+id/adapter_activityscanresult_item_tv_receivingaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/ReceivingAddress"
+            android:textColor="@color/Title_Color"
+            android:textSize="@dimen/sp16"
+            app:layout_constraintTop_toBottomOf="@id/adapter_activityscanresult_item_tv_deliveryaddress" />
+
+        <TextView
+            android:id="@+id/adapter_activityscanresult_item_tv_tareweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+            android:text="@string/TareWeight"
+            android:textColor="@color/Title_Color"
+            android:textSize="@dimen/sp16"
+            app:layout_constraintTop_toBottomOf="@id/adapter_activityscanresult_item_tv_receivingaddress" />
+
+        <TextView
+            android:id="@+id/adapter_activityscanresult_item_tv_grossweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+            android:text="@string/GrossWeight"
+            android:textColor="@color/Title_Color"
+            android:textSize="@dimen/sp16"
+            app:layout_constraintTop_toBottomOf="@id/adapter_activityscanresult_item_tv_tareweight" />
+
+        <TextView
+            android:id="@+id/adapter_activityscanresult_item_tv_netweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+            android:text="@string/NetWeight"
+            android:textColor="@color/Title_Color"
+            android:textSize="@dimen/sp16"
+            app:layout_constraintTop_toBottomOf="@id/adapter_activityscanresult_item_tv_grossweight" />
+
+        <TextView
+            android:id="@+id/adapter_activityscanresult_item_tv_platenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+            android:text="@string/PlateNumber"
+            android:textColor="@color/Title_Color"
+            android:textSize="@dimen/sp16"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
